@@ -13,6 +13,14 @@ img{
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -46,4 +54,18 @@ img{
 
 .align-item-center{
     align-items: center;
+}
+
+.section_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.center_nav{
+   width: 50%; 
+}
+
+.center_nav ul{
+    justify-content: space-between;
+    height: 100%;
 }
